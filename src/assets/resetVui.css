@@ -1,0 +1,14 @@
+.van-tabbar {
+  height: 1.04rem;
+
+}
+.van-icon::before{
+  font-size: 0.45rem;
+}
+.van-tabbar-item{
+  font-size: 0.20rem;
+ 
+}
+.van-tabbar-item--active{
+  color: #f56c02;
+}

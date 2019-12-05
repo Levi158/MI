@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Fenlei from "../views/Fenlei.vue";
 import Detail from "../views/Detail.vue";
+import User from '../views/User.vue'
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,12 @@ const routes = [
     path: "/D",
     name: "Detail",
     component: Detail
+  }
+  ,
+  {
+    path:'/user',
+    name:'user',
+    component:User
   }
   // {
   // path: "/about",
